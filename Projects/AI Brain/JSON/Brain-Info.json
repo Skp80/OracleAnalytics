@@ -1,0 +1,36 @@
+{
+  "id": "XXXXXX",
+  "compartmentId": "XXXXXX",
+  "timeCreated": "2022-11-01",
+  "displayName": "Brain",
+  "description": "Brain",
+  "labelsSet": [
+    {
+      "name": "Glioma Tumor"
+    },
+     {
+      "name": "Meningioma Tumor"
+    },
+     {
+      "name": "No Tumor"
+    },
+    {
+      "name": "Pituitary Tumor"
+    }
+  ],
+  "annotationFormat": "SINGLE_LABEL",
+  "datasetSourceDetails": {
+    "namespace": "idjrylewd7gi",
+    "bucket": "bucket-vision-ai"
+  },
+  "datasetFormatDetails": {
+    "formatType": "IMAGE"
+  },
+  "recordFiles": [
+    {
+      "namespace": "idjrylewd7gi",
+      "bucket": "bucket-vision-ai",
+      "path": "Brain-Records.jsonl"
+    }
+  ]
+}
